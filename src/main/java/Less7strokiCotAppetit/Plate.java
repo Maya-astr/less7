@@ -2,7 +2,6 @@ package Less7strokiCotAppetit;
 
 class Plate {
     private int food;
-
     Plate(int food) {
         this.food = food;
     }
@@ -18,7 +17,7 @@ class Plate {
     }
 
     void info() {
-        System.out.println("На тарелке осталось " + food+ " порции");
+        System.out.println("На тарелке осталось " + food + " порции");
     }
 }
 
