@@ -8,17 +8,13 @@ public class MainClass {
             new Cat("Цаца", 15),
             new Cat("Маркиза", 12),
             new Cat("Талия", 15),
-
-
         };
 
         Plate plate = new Plate(100);
-
         for (Cat cat : cats) {
             cat.eat(plate);
             cat.info();
         }
-
         plate.addFood(0);
         plate.info();
     }
