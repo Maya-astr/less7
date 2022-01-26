@@ -12,9 +12,9 @@ class Cat {
         this.satiety = true;
     }
     void info() {
-        String isSatiety = !satiety ? "  наелась" : "голоден";
+        String isSatiety = !satiety ? "  наелась" : "  голодна";
         System.out.println(name +  isSatiety);
-    }
+        }
     void eat(Plate plate) {
         if (satiety && plate.decreaseFood(appetite))
             satiety = false;

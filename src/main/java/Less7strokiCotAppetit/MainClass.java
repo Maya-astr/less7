@@ -4,7 +4,7 @@ public class MainClass {
     public static void main(String[] args) {
         Cat[] cats = {
 
-            new Cat("Плюша", 7),
+            new Cat("Плюша", 57),
             new Cat("Муся", 12),
             new Cat("Цаца", 15),
             new Cat("Маркиза", 12),
